@@ -18,26 +18,7 @@
 
 </div>
 
----
 
-## 📖 Table of Contents
-
-- [About The Project](#-about-the-project)
-- [Interactive Web Features](#-interactive-web-features)
-- [Hackathon Themes](#-hackathon-themes)
-- [Eligibility & Categories](#-eligibility--participant-categories)
-- [Timeline & Milestones](#-important-dates--timeline)
-- [Registration Fees](#-registration-fees)
-- [Prizes & Benefits](#-prizes--participant-benefits)
-- [Hackathon Evaluation Stages](#-hackathon-stages)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [Quick Start & Local Development](#-quick-start--local-development)
-- [Deployment](#-deployment)
-- [Contributing](#-contributing)
-- [License & Permissions](#-license--permissions)
-
----
 
 ## ⚡ About The Project
 
@@ -53,19 +34,7 @@ This repository hosts the official, immersive web application for the hackathon.
 
 ---
 
-## 🌟 Interactive Web Features
 
-The portal offers an avionics-inspired digital experience designed to engage researchers, developers, and industry sponsors:
-
-- 🌌 **3D WebGL Flight Canvas & Halftone Shaders:** Custom Three.js render pipeline featuring procedural volumetric cloudscapes and retro-futuristic halftone post-processing.
-- 🎛️ **Sticky Avionics & Battery Telemetry HUD:** Fixed real-time telemetry readout displaying simulated altitude, voltage states, cell temperature, and health indicators.
-- 🧪 **Interactive Degradation & Dendrite Simulator:** Live interactive sandbox enabling users to adjust operational parameters (C-rate, ambient temperature, cycles) to model risk probabilities.
-- ⚖️ **PromptSplit Architecture Comparator:** Side-by-side interactive comparison matrix evaluating cell topologies, chemistries, and deployment trade-offs.
-- 🧬 **Loewy MAYA Spectrum:** Interactive progressive innovation visualizer inspired by Raymond Loewy's "Most Advanced Yet Acceptable" design principle.
-- 📜 **Continuous Cloudscape & Word Reveal:** High-performance GSAP scroll-triggered text reveals and fluid transitions.
-- 📝 **Expression of Interest (EOI) Portal:** Integrated client-side validated registration form for instant participant team applications.
-
----
 
 ## 🔬 Hackathon Themes
 
@@ -136,27 +105,7 @@ Category-wise registration fee structure:
 
 ---
 
-## 🚀 Hackathon Stages
 
-```mermaid
-sequenceDiagram
-    autonumber
-    actor Participant as Teams / Start-ups
-    participant Portal as IBC 4.0 Web Portal
-    participant Jury as Expert Screening Panel
-    participant Mentors as Industry & R&D Mentors
-    participant Finale as Grand Finale Jury
-
-    Participant->>Portal: Submit EOI & Register Theme
-    Portal-->>Participant: Confirmation & Application Dossier
-    Participant->>Jury: Technical Abstract & Solution Proposal
-    Jury->>Participant: Shortlist Notification
-    Mentors->>Participant: Intensive Mentorship & Prototype Refinement
-    Participant->>Finale: Live Demonstration & Pitch
-    Finale-->>Participant: Cash Prizes, Certificates & Incubation
-```
-
----
 
 
 ## 📄 License & Permissions
